@@ -429,15 +429,11 @@
             opacity: 0.1;
         }
 
-        .about-image .placeholder-avatar {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 8rem;
-            color: rgba(10, 15, 20, 0.1);
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
         }
 
         .about-right p {
@@ -1176,7 +1172,7 @@
             <div class="section-label">About Me</div>
             <h2>Turning Data Into Business Impact</h2>
             <div class="about-image">
-                <div class="placeholder-avatar">KM</div>
+                <img src="profile.jpg" alt="Kamil Mansuri">
             </div>
         </div>
         <div class="about-right">
